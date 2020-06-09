@@ -1,0 +1,35 @@
+@media (max-width: 480px) {
+    .shuffle-and-Sort__header {
+        background: #000;
+        color: #fff;
+    }
+    .shuffle-and-Sort {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .shuffle-and-Sort__cards {
+        flex-direction: column;
+    }
+    .shuffle-and-Sort__card {
+        display: flex;
+        text-align: center;
+        margin-top: 5px;
+    }
+    .shuffle-and-Sort__controls {
+        text-align: center;
+        padding-top: 20px;
+    }
+    button {
+        font-size: 16px;
+        width: 100px;
+        padding: 20px 5px;
+        margin: 5px 5px 25px;
+    }
+    .shuffle-and-Sort__card .card-text {
+        width: 100%;
+        font-size: 1em;
+        padding: 10px 0;
+        margin-left: 10px;
+        background: #EFEFEF;
+    }
+}

@@ -1,0 +1,38 @@
+html,
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.shuffle-and-Sort__header {
+  font-family: monospace;
+  font-size: 1.2em;
+  padding: 10px;
+  text-align: center;
+}
+
+.shuffle-and-Sort {
+  display: flex;
+}
+
+.shuffle-and-Sort__cards {
+  display: flex;
+  list-style: none;
+}
+
+button {
+  border-radius: 10px;
+  background: #72C3DC;
+  border: 0;
+  box-shadow: 0 5px 0 0 #2F454E;
+  margin: 10px auto;
+  color: #fff;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0 40px;
+}

@@ -1,0 +1,46 @@
+@media (min-width: 480px) {
+    .shuffle-and-Sort-app {
+        width: 960px;
+        background: #EFEFEF;
+        margin: auto;
+    }
+    .shuffle-and-Sort__header {
+        background: #fff;
+    }
+    .shuffle-and-Sort {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .shuffle-and-Sort__container {
+        width: 70%;
+    }
+    .shuffle-and-Sort__cards {
+        flex-wrap: wrap;
+    }
+    .shuffle-and-Sort__card {
+        display: flex;
+        width: 33.33%;
+        height: 33.33%;
+        min-height: 30vh;
+        justify-content: center;
+        align-items: center;
+    }
+    button {
+        width: 100%;
+        font-size: 20px;
+        padding: 12px 40px;
+    }
+    button:hover {
+        box-shadow: 0 0 5px #2F454E;
+    }
+    .card-text {
+        color: #fff;
+        font-size: 8em;
+    }
+    .shuffle-and-Sort__controls {
+        width: 30%;
+        padding: 20px 40px;
+        display: flex;
+        flex-direction: column;
+    }
+}
