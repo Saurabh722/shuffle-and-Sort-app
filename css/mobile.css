@@ -1,4 +1,4 @@
-@media (max-width: 480px) {
+@media (max-width: 720px) {
     .shuffle-and-Sort__header {
         background: #000;
         color: #fff;
@@ -27,7 +27,7 @@
     }
     .shuffle-and-Sort__card .card-text {
         width: 100%;
-        font-size: 1em;
+        font-size: 1rem;
         padding: 10px 0;
         margin-left: 10px;
         background: #EFEFEF;
